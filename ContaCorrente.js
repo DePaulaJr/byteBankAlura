@@ -9,19 +9,7 @@ export class ContaCorrente{
     
 
 
-    set cliente(novoValor){
-        if(novoValor instanceof Cliente){
-            this._cliente = novoValor;
-        }
-    }
-
-    get cliente(){
-        return this._cliente;
-    }
-
-    get saldo(){
-        return this._saldo;
-    }
+  
 
     constructor(agencia, cliente){
         this.agencia = agencia;
